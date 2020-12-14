@@ -18,7 +18,7 @@ mkdir JOBS/$jobi/log
 cp ampt JOBS/$jobi
 cp input.ampt JOBS/$jobi
 cp exec JOBS/$jobi
-sed "37i cd $workingFolder/JOBS/$jobi" JOBS/$jobi/exec.sh > JOBS/$jobi/exec.sh
+sed "37i cd $workingFolder/JOBS/$jobi" JOBS/$jobi/exec > JOBS/$jobi/exec.sh
 rm JOBS/$jobi/exec
 chmod +x JOBS/$jobi/exec.sh
 cp run.sub JOBS/$jobi/run$i.sub
