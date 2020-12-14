@@ -1,7 +1,0 @@
-           1  *           1  ->d+           5  (regular d prodn)    @evt#           1  @nt=          98
-  d+           5  ->BB (regular d destrn) @evt#           1  @nt=         125  lb1,2=           1           1
-           2  *           8  ->d+           5  (regular d prodn)    @evt#           3  @nt=          75
-  d+           5  (regular d M elastic) @evt#           3  @nt=          83  lb1,2=           5          42
-  d+           5  (regular d M elastic) @evt#           3  @nt=          87  lb1,2=           5          42
-           9  *           1  ->d+           4  (regular d prodn)    @evt#           7  @nt=         135
-  d+           4  (regular d M elastic) @evt#           7  @nt=         136  lb1,2=           4          42
