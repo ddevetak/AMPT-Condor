@@ -1,0 +1,36 @@
+###############################
+# model Parameters
+
+-stored in file "input.ampt"
+
+###############################
+# running locally
+
+./exec.sh
+
+- output files stored in folder "ana"
+
+- print out file from model is "nohup.out" 
+
+###############################
+# merge and format data
+
+
+root -l 'hadron_readout2tree.C("./ana/ampt.dat")'
+
+
+###############################
+# condor run
+
+-condor files "log", "error", "output"
+
+check user jobs: condor_q
+check user priority: condor_userprio
+
+submit to condor: ./submit.sh
+
+
+################################
+# merge root files
+
+./make_root_files.sh
