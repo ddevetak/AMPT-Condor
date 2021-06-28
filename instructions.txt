@@ -37,6 +37,7 @@ submit to condor: ./submit.sh
 
 
 ################################
-# install fortran
+# gfortran
 
+replace in Makefile F77=gfortran
 
