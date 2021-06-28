@@ -34,3 +34,9 @@ submit to condor: ./submit.sh
 # merge root files
 
 ./make_root_files.sh
+
+
+################################
+# install fortran
+
+
